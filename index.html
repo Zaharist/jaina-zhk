@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaina ЖК — Жилой комплекс комфорт-класса в Алматинской области</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-black text-white">
+
+    <!-- Навигация -->
+    <nav style="position: fixed; top: 0; width: 100%; z-index: 50; background: rgba(0,0,0,0.85); backdrop-filter: blur(10px);">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="text-2xl font-bold text-white">Jaina <span style="color: #1B2F5E;">ЖК</span></div>
+                <div class="hidden md:flex items-center gap-8">
+                    <a href="#about" class="text-white hover:text-gray-300 transition">О проекте</a>
+                    <a href="#services" class="text-white hover:text-gray-300 transition">Планировки</a>
+                    <a href="#advantages" class="text-white hover:text-gray-300 transition">Преимущества</a>
+                    <a href="#reviews" class="text-white hover:text-gray-300 transition">Строительство</a>
+                    <a href="#contacts" class="text-white hover:text-gray-300 transition">Контакты</a>
+                    <a href="#contacts" class="px-6 py-2 rounded-lg font-semibold transition" style="background: #1B2F5E; color: white;">Записаться на просмотр</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section style="background-image: url('https://images.unsplash.com/photo-1497366216548-37526070297c?w=1600'); background-size: cover; background-position: center; background-attachment: fixed; min-height: 100vh; display: flex; align-items: center; justify-content: center;" data-aos="fade-up">
+        <div style="background: rgba(0,0,0,0.65); width: 100%; min-height: 100vh; display: flex; align-items: center; justify-content: center;">
+            <div class="container mx-auto px-6 text-center">
+                <h1 class="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">Jaina ЖК<br>Ваш комфорт начинается здесь</h1>
+                <p class="text-xl md:text-2xl text-gray-200 mb-10 max-w-3xl mx-auto">Квартиры от 13.8 млн тг в Алматинской области. Первый взнос 20% без процентов до сдачи. Собственный детсад и школа на территории.</p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="#services" class="px-8 py-4 rounded-lg font-semibold text-lg transition hover:opacity-90" style="background: #1B2F5E; color: white;">Выбрать квартиру</a>
+                    <a href="#contacts" class="px-8 py-4 rounded-lg font-semibold text-lg border-2 border-white text-white transition hover:bg-white hover:text-black">Записаться на просмотр</a>
+                </div>
+                <p class="text-gray-300 mt-8 text-lg">Сдача Q4 2026</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- О проекте -->
+    <section id="about" style="background-image: url('https://images.unsplash.com/photo-1624204386084-dd8c05e32226?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjU3Njd8MHwxfHNlYXJjaHwyfHxyZXNpZGVudGlhbCUyMGNvbXBsZXglMjBtb2Rlcm4lMjBhcGFydG1lbnQlMjBidWlsZGluZ3xlbnwwfHx8fDE3ODAzMTQ4NzF8MA&ixlib=rb-4.1.0&q=80&w=1080'); background-size: cover; background-position: center; background-attachment: fixed;" data-aos="fade-up">
+        <div style="background: rgba(0,0,0,0.65); padding: 96px 0;">
+            <div class="container mx-auto px-6">
+                <h2 class="text-4xl md:text-5xl font-bold text-white text-center mb-6">О проекте Jaina ЖК</h2>
+                <p class="text-xl text-gray-300 text-center max-w-4xl mx-auto mb-12">Jaina ЖК — это современный жилой комплекс комфорт-класса, расположенный в экологически чистом районе Карасая, Алматинской области. Мы создаём пространство для комфортной жизни молодых семей и специалистов, предлагая доступное жильё с развитой инфраструктурой и удобной транспортной доступностью.</p>
+                <div class="grid md:grid-cols-3 gap-8 mt-16">
+                    <div class="text-center" data-aos="fade-up" data-aos-delay="100">
+                        <div class="text-5xl font-bold mb-2" style="color: #1B2F5E;">500+</div>
+                        <p class="text-gray-300 text-lg">Современных квартир</p>
+                    </div>
+                    <div class="text-center" data-aos="fade-up" data-aos-delay="200">
+                        <div class="text-5xl font-bold mb-2" style="color: #1B2F5E;">5 га</div>
+                        <p class="text-gray-300 text-lg">Благоустроенная территория</p>
+                    </div>
+                    <div class="text-center" data-aos="fade-up" data-aos-delay="300">
+                        <div class="text-5xl font-bold mb-2" style="color: #1B2F5E;">Q4 2026</div>
+                        <p class="text-gray-300 text-lg">Сдача объекта</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Планировки и цены -->
+    <section id="services" style="background-image: url('https://images.unsplash.com/photo-1497366216548-37526070297c?w=1600'); background-size: cover; background-position: center; background-attachment: fixed;" data-aos="fade-up">
+        <div style="background: rgba(0,0,0,0.65); padding: 96px 0;">
+            <div class="container mx-auto px-6">
+                <h2 class="text-4xl md:text-5xl font-bold text-white text-center mb-4">Планировки и цены</h2>
+                <p class="text-xl text-gray-300 text-center mb-16 max-w-3xl mx-auto">Выберите квартиру, которая идеально подойдёт для вашей семьи. Гибкие условия оплаты и выгодные цены.</p>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="p-8 rounded-2xl" style="background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.15);" data-aos="fade-up" data-aos-delay="100">
+                        <i data-lucide="home" style="color: #1B2F5E; width: 48px; height: 48px;" class="mb-4"></i>
+                        <h3 class="text-2xl font-bold text-white mb-3">1-комнатные</h3>
+                        <p class="text-gray-300 mb-4">От 35 м² до 42 м²</p>
+                        <p class="text-3xl font-bold mb-4" style="color: #1B2F5E;">От 13.8 млн ₸</p>
+                        <p class="text-gray-300">Идеальный вариант для молодых специалистов и пар без детей. Функциональная планировка с эргономичным использованием пространства.</p>
+                    </div>
+                    <div class="p-8 rounded-2xl" style="background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.15);" data-aos="fade-up" data-aos-delay="200">
+                        <i data-lucide="building" style="color: #1B2F5E; width: 48px; height: 48px;" class="mb-4"></i>
+                        <h3 class="text-2xl font-bold text-white mb-3">2-комнатные</h3>
+                        <p class="text-gray-300 mb-4">От 52 м² до 65 м²</p>
+                        <p class="text-3xl font-bold mb-4" style="color: #1B2F5E;">От 19.5 млн ₸</p>
+                        <p class="text-gray-300">Отличный выбор для небольшой семьи. Просторная гостиная, изолированная спальня и удобная кухня-столовая.</p>
+                    </div>
+                    <div class="p-8 rounded-2xl" style="background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.15);" data-aos="fade-up" data-aos-delay="300">
+                        <i data-lucide="crown" style="color: #1B2F5E; width: 48px; height: 48px;" class="mb-4"></i>
+                        <h3 class="text-2xl font-bold text-white mb-3">3-комнатные</h3>
+                        <p class="text-gray-300 mb-4">От 75 м² до 90 м²</p>
+                        <p class="text-3xl font-bold mb-4" style="color: #1B2F5E;">От 26.2 млн ₸</p>
+                        <p class="text-gray-300">Просторные квартиры для полноценной семьи. Две спальни, гостиная, раздельный санузел и вместительная кухня.</p>
+                    </div>
+                </div>
+                <div class="text-center mt-12">
+                    <p class="text-xl text-white font-semibold mb-2">Специальные условия оплаты:</p>
+                    <p class="text-lg text-gray-300">Первый взнос 20% без процентов до сдачи объекта</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Преимущества -->
+    <section id="advantages" style="background-image: url('https://images.unsplash.com/photo-1557264322-b44d383a2906?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjU3Njd8MHwxfHNlYXJjaHwxfHxkYXJrJTIwdGV4dHVyZSUyMGFic3RyYWN0fGVufDB8fHx8MTc4MDI0NjE1OHww&ixlib=rb-4.1.0&q=80&w=1080'); background-size: cover; background-position: center; background-attachment: fixed;" data-aos="fade-up">
+        <div style="background: rgba(0,0,0,0.65); padding: 96px 0;">
+            <div class="container mx-auto px-6">
+                <h2 class="text-4xl md:text-5xl font-bold text-white text-center mb-4">Преимущества Jaina ЖК</h2>
+                <p class="text-xl text-gray-300 text-center mb-16 max-w-3xl mx-auto">Всё, что нужно для комфортной жизни вашей семьи — в одном месте</p>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="p-8 rounded-2xl" style="background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.15);" data-aos="fade-up" data-aos-delay="100">
+                        <i data-lucide="shield" style="color: #1B2F5E; width: 48px; height: 48px;" class="mb-4"></i>
+                        <h3 class="text-2xl font-bold text-white mb-3">Надёжный застройщик</h3>
+                        <p class="text-gray-300">Работаем с проверенными строительными компаниями. Полная юридическая прозрачность и гарантия качества на все работы.</p>
+                    </div>
+                    <div class="p-8 rounded-2xl" style="background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.15);" data-aos="fade-up" data-aos-delay="200">
+                        <i data-lucide="school" style="color: #1B2F5E; width: 48px; height: 48px;" class="mb-4"></i>
+                        <h3 class="text-2xl font-bold text-white mb-3">Детсад и школа</h3>
+                        <p class="text-gray-300">Собственный детский сад и современная школа на территории комплекса. Ваши дети будут учиться рядом с домом.</p>
+                    </div>
+                    <div class="p-8 rounded-2xl" style="background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.15);" data-aos="fade-up" data-aos-delay="300">
+                        <i data-lucide="sparkles" style="color: #1B2F5E; width: 48px; height: 48px;" class="mb-4"></i>
+                        <h3 class="text-2xl font-bold text-white mb-3">Развитая инфраструктура</h3>
+                        <p class="text-gray-300">Торговые центры, спортивные площадки, парковые зоны, детские игровые зоны — всё для активной и комфортной жизни.</p>
+                    </div>
+                    <div class="p-8 rounded-2xl" style="background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.15);" data-aos="fade-up" data-aos-delay="100">
+                        <i data-lucide="map-pin" style="color: #1B2F5E; width: 48px; height: 48px;" class="mb-4"></i>
+                        <h3 class="text-2xl font-bold text-white mb-3">Удобное расположение</h3>
+                        <p class="text-gray-300">Карасай, Алматинская область — экологически чистый район с развитой транспортной доступностью до центра Алматы.</p>
+                    </div>
+                    <div class="p-8 rounded-2xl" style="background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.15);" data-aos="fade-up" data-aos-delay="200">
+                        <i data-lucide="zap" style="color: #1B2F5E; width: 48px; height: 48px;" class="mb-4"></i>
+                        <h3 class="text-2xl font-bold text-white mb-3">Современные технологии</h3>
+                        <p class="text-gray-300">Энергоэффективные решения, система умный дом, высокоскоростной интернет, видеонаблюдение и контроль доступа.</p>
+                    </div>
+                    <div class="p-8 rounded-2xl" style="background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.15);" data-aos="fade-up" data-aos-delay="300">
+                        <i data-lucide="trending-up" style="color: #1B2F5E; width: 48px; height: 48px;" class="mb-4"></i>
+                        <h3 class="text-2xl font-bold text-white mb-3">Выгодная инвестиция</h3>
+                        <p class="text-gray-300">Доступные цены на квартиры комфорт-класса. Гибкая система оплаты. Рост стоимости недвижимости в перспективном районе.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ход строительства (Отзывы) -->
+    <section id="reviews" style="background-image: url('https://images.unsplash.com/photo-1497366216548-37526070297c?w=1600'); background-size: cover; background-position: center; background-attachment: fixed;" data-aos="fade-up">
+        <div style="background: rgba(0,0,0,0.65); padding: 96px 0;">
+            <div class="container mx-auto px-6">
+                <h2 class="text-4xl md:text-5xl font-bold text-white text-center mb-4">Отзывы наших клиентов</h2>
+                <p class="text-xl text-gray-300 text-center mb-16 max-w-3xl mx-auto">Узнайте, что говорят те, кто уже стал частью Jaina ЖК</p>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="p-8 rounded-2xl" style="background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.15);" data-aos="fade-up" data-aos-delay="100">
+                        <div class="flex items-center mb-4">
+                            <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjU3Njd8MHwxfHNlYXJjaHwxfHxtYW4lMjBwb3J0cmFpdCUyMHByb2Zlc3Npb25hbHxlbnwwfHx8fDE3ODAyNDYxNTh8MA&ixlib=rb-4.1.0&q=80&w=1080" style="width:56px;height:56px;border-radius:50%;object-fit:cover;border:2px solid #1B2F5E" alt="Алексей">
+                            <div class="ml-4">
+                                <p class="text-white font-bold text-lg">Алексей Ковалёв</p>
+                                <p class="text-gray-400 text-sm">IT-специалист, Алматы</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-1 mb-4">
+                            <i data-lucide="star" style="fill:#F59E0B;color:#F59E0B;width:16px;height:16px;display:inline-block"></i>
+                            <i data-lucide="star" style="fill:#F59E0B;color:#F59E0B;width:16px;height:16px;display:inline-block"></i>
+                            <i data-lucide="star" style="fill:#F59E0B;color:#F59E0B;width:16px;height:16px;display:inline-block"></i>
+                            <i data-lucide="star" style="fill:#F59E0B;color:#F59E0B;width:16px;height:16px;display:inline-block"></i>
+                            <i data-lucide="star" style="fill:#F59E0B;color:#F59E0B;width:16px;height:16px;display:inline-block"></i>
+                        </div>
+                        <p class="text-gray-300">Долго искали доступное жильё для молодой семьи. Jaina ЖК — это лучшее соотношение цены и качества. Условия оплаты просто огонь! Первый взнос 20% без процентов до сдачи — это реально выручило. Планировки продуманные, застройщик на связи. Рекомендую!</p>
+                    </div>
+                    <div class="p-8 rounded-2xl" style="background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.15);" data-aos="fade-up" data-aos-delay="200">
+                        <div class="flex items-center mb-4">
+                            <img src="https://images.unsplash.com/photo-1543132220-3ec99c6094dc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjU3Njd8MHwxfHNlYXJjaHwyfHxtYW4lMjBwb3J0cmFpdCUyMHByb2Zlc3Npb25hbHxlbnwwfHx8fDE3ODAyNDYxNTh8MA&ixlib=rb-4.1.0&q=80&w=1080" style="width:56px;height:56px;border-radius:50%;object-fit:cover;border:2px solid #1B2F5E" alt="Дмитрий">
+                            <div class="ml-4">
+                                <p class="text-white font-bold text-lg">Дмитрий Сергеев</p>
+                                <p class="text-gray-400 text-sm">Предприниматель, Карасай</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-1 mb-4">
+                            <i data-lucide="star" style="fill:#F59E0B;color:#F59E0B;width:16px;height:16px;display:inline-block"></i>
+                            <i data-lucide="star" style="fill:#F59E0B;color:#F59E0B;width:16px;height:16px;display:inline-block"></i>
+                            <i data-lucide="star" style="fill:#F59E0B;color:#F59E0B;width:16px;height:16px;display:inline-block"></i>
+                            <i data-lucide="star" style="fill:#F59E0B;color:#F59E0B;width:16px;height:16px;display:inline-block"></i>
+                            <i data-lucide="star" style="fill:#F59E0B;color:#F59E0B;width:16px;height:16px;display:inline-block"></i>
+                        </div>
+                        <p class="text-gray-300">Купил 3-комнатную для семьи. Очень порадовало, что на территории будет детский сад и школа — это огромный плюс для родителей. Строительство идёт по графику, всё прозрачно. Менеджеры всегда на связи, помогают с любыми вопросами. Инвестиция в будущее!</p>
+                    </div>
+                    <div class="p-8 rounded-2xl" style="background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.15);" data-aos="fade-up" data-aos-delay="300">
+                        <div class="flex items-center mb-4">
+                            <img src="https://images.unsplash.com/photo-1590873803005-539ede4d828a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjU3Njd8MHwxfHNlYXJjaHwzfHxtYW4lMjBwb3J0cmFpdCUyMHByb2Zlc3Npb25hbHxlbnwwfHx8fDE3ODAyNDYxNTh8MA&ixlib=rb-4.1.0&q=80&w=1080" style="width:56px;height:56px;border-radius:50%;object-fit:cover;border:2px solid #1B2F5E" alt="Максим">
+                            <div class="ml-4">
+                                <p class="text-white font-bold text-lg">Максим Иванов</p>
+                                <p class="text-gray-400 text-sm">Инженер, Алматинская обл.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-1 mb-4">
+                            <i data-lucide="star" style="fill:#F59E0B;color:#F59E0B;width:16px;height:16px;display:inline-block"></i>
+                            <i data-lucide="star" style="fill:#F59E0B;color:#F59E0B;width:16px;height:16px;display:inline-block"></i>
+                            <i data-lucide="star" style="fill:#F59E0B;color:#F59E0B;width:16px;height:16px;display:inline-block"></i>
+                            <i data-lucide="star" style="fill:#F59E0B;color:#F59E0B;width:16px;height:16px;display:inline-block"></i>
+                            <i data-lucide="star" style="fill:#F59E0B;color:#F59E0B;width:16px;height:16px;display:inline-block"></i>
+                        </div>
+                        <p class="text-gray-300">Переехал из Алматы в Карасай именно из-за Jaina ЖК. Экология здесь отличная, воздух чистый, а до города 30 минут. Цены адекватные, планировки удобные, всё продумано. Особенно впечатлила инфраструктура — парки, спортплощадки, торговые центры. Жить здесь — одно удовольствие!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section id="contacts" style="background-image: url('https://images.unsplash.com/photo-1497366216548-37526070297c?w=1600'); background-size: cover; background-position: center; background-attachment: fixed;" data-aos="fade-up">
+        <div style="background: rgba(0,0,0,0.65); padding: 96px 0;">
+            <div class="container mx-auto px-6">
+                <h2 class="text-4xl md:text-5xl font-bold text-white text-center mb-4">Свяжитесь с нами</h2>
+                <p class="text-xl text-gray-300 text-center mb-16 max-w-3xl mx-auto">Запишитесь на просмотр или получите консультацию по выбору квартиры</p>
+                <div class="grid md:grid-cols-2 gap-12">
+                    <div>
+                        <h3 class="text-2xl font-bold text-white mb-6">Наши контакты</h3>
+                        <div class="space-y-6">
+                            <div class="flex items-start gap-4">
+                                <i data-lucide="phone" style="color: #1B2F5E; width: 24px; height: 24px; margin-top: 4px;"></i>
+                                <div>
+                                    <p class="text-white font-semibold mb-1">Телефон / WhatsApp</p>
+                                    <a href="tel:+77005210650" class="text-gray-300 hover:text-white transition">+7 (700) 521-06-50</a>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-4">
+                                <i data-lucide="instagram" style="color: #1B2F5E; width: 24px; height: 24px; margin-top: 4px;"></i>
+                                <div>
+                                    <p class="text-white font-semibold mb-1">Instagram</p>
+                                    <a href="https://instagram.com/jaina_zhk" target="_blank" class="text-gray-300 hover:text-white transition">@jaina_zhk</a>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-4">
+                                <i data-lucide="map-pin" style="color: #1B2F5E; width: 24px; height: 24px; margin-top: 4px;"></i>
+                                <div>
+                                    <p class="text-white font-semibold mb-1">Адрес</p>
+                                    <p class="text-gray-300">Карасай, Алматинская область</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-4">
+                                <i data-lucide="calendar" style="color: #1B2F5E; width: 24px; height: 24px; margin-top: 4px;"></i>
+                                <div>
+                                    <p class="text-white font-semibold mb-1">Сдача объекта</p>
+                                    <p class="text-gray-300">Q4 2026</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-white mb-6">Записаться на просмотр</h3>
+                        <form class="space-y-4">
+                            <div>
+                                <input type="text" placeholder="Ваше имя" class="w-full px-4 py-3 rounded-lg text-white placeholder-gray-400" style="background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2);">
+                            </div>
+                            <div>
+                                <input type="tel" placeholder="Телефон" class="w-full px-4 py-3 rounded-lg text-white placeholder-gray-400" style="background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2);">
+                            </div>
+                            <div>
+                                <select class="w-full px-4 py-3 rounded-lg text-white" style="background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2);">
+                                    <option style="background: #1a1a1a;">Выберите тип квартиры</option>
+                                    <option style="background: #1a1a1a;">1-комнатная</option>
+                                    <option style="background: #1a1a1a;">2-комнатная</option>
+                                    <option style="background: #1a1a1a;">3-комнатная</option>
+                                </select>
+                            </div>
+                            <div>
+                                <textarea rows="4" placeholder="Сообщение (необязательно)" class="w-full px-4 py-3 rounded-lg text-white placeholder-gray-400" style="background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2);"></textarea>
+                            </div>
+                            <button type="submit" class="w-full px-8 py-4 rounded-lg font-semibold text-lg transition hover:opacity-90" style="background: #1B2F5E; color: white;">Отправить заявку</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer style="background: #000; padding: 48px 0;">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-3 gap-8 mb-8">
+                <div>
+                    <div class="text-2xl font-bold text-white mb-4">Jaina <span style="color: #1B2F5E;">ЖК</span></div>
+                    <p class="text-gray-400">Жилой комплекс комфорт-класса в Алматинской области</p>
+                </div>
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Навигация</h4>
+                    <div class="space-y-2">
+                        <a href="#about" class="block text-gray-400 hover:text-white transition">О проекте</a>
+                        <a href="#services" class="block text-gray-400 hover:text-white transition">Планировки</a>
+                        <a href="#advantages" class="block text-gray-400 hover:text-white transition">Преимущества</a>
+                        <a href="#contacts" class="block text-gray-400 hover:text-white transition">Контакты</a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Контакты</h4>
+                    <div class="space-y-2">
+                        <p class="text-gray-400">+7 (700) 521-06-50</p>
+                        <p class="text-gray-400">@jaina_zhk</p>
+                        <p class="text-gray-400">Карасай, Алматинская область</p>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 pt-8 text-center">
+                <p class="text-gray-400">&copy; 2024 Jaina ЖК. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <script>AOS.init({ duration: 900, once: true, easing: 'ease-out-cubic' }); lucide.createIcons();</script>
+</body>
+</html>
